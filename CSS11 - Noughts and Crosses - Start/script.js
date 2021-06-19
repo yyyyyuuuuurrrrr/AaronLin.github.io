@@ -74,7 +74,7 @@ function checkWin(){
 
 function announceWin(winner){
 	currentPlayer = -1;
-	document.querySelector("#popup").innerHTML = '<img src="images/X.jpg" alt="x button" id="x"><h2>' + winner + ' Wins!</h2>';
+	document.querySelector("#popup").innerHTML = '<img src="images/x.jpg" alt="x button" id="x"><h2>' + winner + ' Wins!</h2>';
 	
 	document.querySelector("#x").addEventListener("click",hidePopup);
 	
@@ -93,10 +93,6 @@ function hidePopup(){
 	document.querySelector("#container").style.display = "none";
 	
 }
-
-
-
-
 
 
 
