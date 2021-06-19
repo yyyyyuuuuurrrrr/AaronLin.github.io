@@ -74,7 +74,7 @@ function checkWin(){
 
 function announceWin(winner){
 	currentPlayer = -1;
-	document.querySelector("#popup").innerHTML = <h2>' + winner + ' Wins!</h2>';
+	//document.querySelector("#popup").innerHTML = <h2>' + winner + ' Wins!</h2>';
 	
 	document.querySelector("#x").addEventListener("click",hidePopup);
 	
