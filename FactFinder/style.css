@@ -1,0 +1,60 @@
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+
+
+#main{
+	width:600px;
+	height:400px;
+	background-color:hotpink;
+	border:5px solid cyan;
+	display:grid;
+	grid-template:1fr 4fr / 1fr;
+}
+#a{
+	background-color:yellow;
+	display:grid;
+	grid-template:1fr / 1fr 1fr 1fr 1fr 1fr;
+	grid-area: 1 / 1 / 2 / 7;
+	grid-gap:5px;
+	padding: 7px;
+	/*top/left/bottom/right*/
+}
+
+#a>input{/* style all buttons */
+	background-color: aquamarine;
+	border: 5px solid yellow;
+	color:red;
+	border-radius:15px;
+	font-size:20px;
+	font-weight:bold;
+	
+	
+}
+#a > input:hover{
+	background-color:red;
+	color:white;
+}
+
+#b{
+	background-color:tangerine;
+	grid-area: 2 / 1 / 5 / 7;
+	/*top/left/bottom/right*/
+}
+
+#main> div{/* select all direct div children of main*/
+	border:4px solid orange;
+	font-size:30px;
+	
+	
+}
+img{
+	width:200px;
+
+	
+}
