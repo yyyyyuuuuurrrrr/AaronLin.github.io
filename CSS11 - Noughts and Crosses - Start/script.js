@@ -83,9 +83,11 @@ function announceWin(winner){
 
 function announceCatsGame(){
 	document.querySelector("#container").style.display = "flex";
+	
+	document.querySelector("#x").addEventListener("click",hidePopup);
 }
 
-document.querySelector("#x").addEventListener("click",hidePopup);
+
 
 function hidePopup(){
 	document.querySelector("#container").style.display = "none";
